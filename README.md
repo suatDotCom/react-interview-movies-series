@@ -1,3 +1,18 @@
+# Interview Questions
+
+### How did you decide on the technical and architectural choices used as part of your solution?
+The expectations and the duration in the project were clear enough. I showed a solution-oriented approach with best practices.
+
+### Are there any improvements you could make to your submission?
+Yes, absolutely. Architectural and visual improvements such as state management libraries, design improvement, style processors can be made.
+
+### What would you do differently if you were allocated more time?
+I could develop code splitting, architecture, style and performance improvements, more useful components.
+
+
+
+# create-react-app introduction
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,0 +1,26 @@
+.movies {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+@media (min-width: 30em) {
+  .movies {
+    grid-template-columns: 1fr 1fr;
+  }
+  .movies .card .thumb {
+    padding-bottom: 25rem;
+  }
+}
+@media (min-width: 60em) {
+  .movies {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .movies .card .thumb {
+    padding-bottom: 15rem;
+  }
+}

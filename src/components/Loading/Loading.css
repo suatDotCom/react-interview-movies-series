@@ -1,0 +1,48 @@
+.loading-wrapper {
+  z-index: 99 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100% - 5.5rem);
+  position: fixed;
+  width: calc(100% - 100px - 1rem);
+  animation: rotation 3s infinite linear;
+  /* @media (max-width: 991px) {
+      width: 100%;
+    } */
+}
+
+.loading-wrapper img {
+  height: 50px;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+  }
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+  }
+}
